@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+This game was inspired by "A Dark Room" for iOS, adapted to the modern world. 
 
-## Available Scripts
+## What it does
+It's supposed to be a game! Since it's not deployed (see Challenges section), I'll describe it here! The idea is that there are two paths in the game. The first path is the conventional work work work, earn money writing BS code, eventually do work as a search engine startup and hire frontend/backend/optimization engineers, get users, and monetize on them! Users don't like that, and the game ends when eventually all money is gone, loans are due, and the player has zero users to monetize. 
 
-In the project directory, you can run:
+The game gives a hint after losing, to try it again but without going to "work". So that means the only option is to code, code code. After enough coding, get a contributor which implies open source and contributors keep coming, after which you can contribute to Blockstack, Ethereum and Bitcoin. The game ends after contributing to Bitcoin...with a *shocking*, underwhelming ending.
 
-### `npm start`
+## How I built it
+One day at a time. Reading the intro to react tutorial was very helpful...I am very new at this.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Challenges I ran into
+Time. I wanted to do so much...but had so little time.
+Unfamiliarity with the programming language meant building this game was a little difficult.
+I even finished the game, and have screenshots etc...but it turns out deploying it was a giant mess. 
+I kept getting an error "Super expression must either be null or a function" only AFTER deploying it to my github.io site. I finally tracked it down to the AwesomeButton component, which didn't seem to work when deployed. So unfortunately I don't have anything to show except for screenshots from my development version.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Accomplishments that I'm proud of
+I built my first game! I learned that deploying can be difficult.
 
-### `npm test`
+## What I learned
+Javascript. React. How to make a game!
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## What's next for A Dark Screen
+Depth! The current iteration has none of the complexity of the original game. 
